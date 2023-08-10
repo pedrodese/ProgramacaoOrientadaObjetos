@@ -1,8 +1,7 @@
-package CALCULADORA_V6;
+package CALCULADORA_V7.Model;
 
-import CALCULADORA_V5.IOperacao;
 
-public class Soma extends Operacoes{
+public class Soma extends Operacoes {
     public double calcula(){
         double soma = num1 + num2;
         return soma;

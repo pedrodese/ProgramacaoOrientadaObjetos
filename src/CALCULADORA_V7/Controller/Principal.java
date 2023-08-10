@@ -1,8 +1,10 @@
-package CALCULADORA_V6;
+package CALCULADORA_V7.Controller;
 
-
+import CALCULADORA_V7.Model.*;
+import CALCULADORA_V7.View.EntradaSaida;
 
 import javax.swing.*;
+
 
 public class Principal {
 
@@ -40,7 +42,7 @@ public class Principal {
             oper.setNum1(num1);
             oper.setNum2(num2);
             resultado=oper.calcula();
-            
+
             EntradaSaida.mostraResultado(resultado, operacao);
             continuar = Integer.parseInt(JOptionPane.showInputDialog("Deseja continuar calculando? 1- Sim | 2- Não "));
 
@@ -50,3 +52,4 @@ public class Principal {
     }
 
 }
+
